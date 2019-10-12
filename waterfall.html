@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .waterfall{
+            -moz-column-count:2; /* Firefox */
+            -webkit-column-count:2; /* Safari 和 Chrome */
+            column-count:2;
+            -moz-column-gap: 4px;
+            -webkit-column-gap: 4px;
+            column-gap: 4px;
+            display: inline-block;
+        }
+
+        .waterfall .waterfall-item {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="waterfall">
+        <div class="waterfall-item">
+            <img src="./images/about_01.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_02.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_03.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_04.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_05.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_06.png">
+        </div>
+        <div class="waterfall-item">
+            <img src="./images/about_07.png">
+        </div>
+    </div>
+</body>
+</html>
